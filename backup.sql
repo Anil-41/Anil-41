@@ -93,7 +93,7 @@ CREATE TABLE `users` (
 
 -- Insert data into `users`
 INSERT INTO `users` VALUES 
-(1,'Jeela Anil','$2b$12$vIHvInNDTM2S2.Ko0dTjQO1GNeAgaJHBVcUxX/DeWxWTfpprhf396'),
+(1,'J Anil','$2b$12$vIHvInNDTM2S2.Ko0dTjQO1GNeAgaJHBVcUxX/DeWxWTfpprhf396'),
 (3,'M kumar','$2b$12$l07R2psv98gqHreb/tw9RuYOT2C3jNDz0f6mLzldZoipvrUHoLzOq'),
 (4,'D Sriram','$2b$12$NoEREzyHiNda4P8P6JsS6e2uwIWNschXeZnHGGd179ceOPqJcY5/S'),
 (5,'Ch Vinay','$2b$12$EuwLeNgIXNLGclwgo/zLuuW1lsYPdAlz5XTQ7Jg8scXxpKMM5lfoO'),
