@@ -6,8 +6,8 @@ def backup_data():
         file_name = "backup.sql"
         db_config = {
             "host": "localhost",
-            "user": "root",
-            "password": "Anil@12345",
+            "user": "******",
+            "password": "********",
             "database": "finance_manager"
         }
         cmd = f"mysqldump -h {db_config['host']} -u {db_config['user']} -p{db_config['password']} {db_config['database']} > {file_name}"
@@ -20,8 +20,8 @@ def restore_data():
         file_name = "backup.sql"
         db_config = {
             "host": "localhost",
-            "user": "root",
-            "password": "Anil@1234",
+            "user": "******",
+            "password": "******",
             "database": "finance_manager"
         }
         cmd = f"mysql -h {db_config['host']} -u {db_config['user']} -p{db_config['password']} {db_config['database']} < {file_name}"
